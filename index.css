@@ -11,12 +11,13 @@ h1 {
 
 ul {
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
     flex-direction: row;
+    padding-right: 40px;
 }
 
 li {
