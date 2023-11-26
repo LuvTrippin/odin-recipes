@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif, Arial;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+ul {
+    display: flex;
+    margin: auto;
+    padding: 0;
+    justify-content: space-around;
+    align-items: space-evenly;
+    flex-wrap: wrap;
+}
+
+li {
+    min-width: 200px;
+    max-width: 350px;
+    height: 300px;
+    margin: 0 5px;
+    list-style-type: none;
+}
+
+li > a > img {
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5px;
+    border-radius: 10%;
+}
+
+.align-center {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(1.1);
+}
